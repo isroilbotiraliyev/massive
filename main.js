@@ -2,8 +2,7 @@ let natija = []
 
 for (let i = 2; i > 1; i++) {
   
-   let users = prompt('ism kiriting')
-
+   let users = prompt('ism kiriting').toLowerCase()
    let newArray = users.split(',')
    
    let add = newArray.some(userAdd => userAdd == 'add')
